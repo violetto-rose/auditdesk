@@ -6,4 +6,4 @@ Run [AuditDesk.cmd](./AuditDesk.cmd). Choose the checks you want, press **Run se
 
 Edit [AuditDesk.ini](./AuditDesk.ini) beside the launcher to change portable settings. `Console=hide` hides the PowerShell console; set it to `show` when troubleshooting. The file also controls the large-file threshold, Local AppData result limit, progress polling frequency, and whether the export folder opens automatically.
 
-The large-file and recursive folder-size checks can take several minutes. Administrative access is not required; Windows-protected locations may simply report fewer results when the app is not elevated.
+The large-file and recursive folder-size checks can take several minutes. Administrative access is required.
